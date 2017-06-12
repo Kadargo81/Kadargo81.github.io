@@ -1,0 +1,204 @@
+{
+	border: 1px solid red !important;
+}
+body {
+
+  background-image: url(http://cdn.wallpapersafari.com/62/8/xmcM2g.jpg);
+	color: #fff;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	background-size: cover;
+	background-color: #efefef;
+ }
+ .main-head {
+	background-color: rgba(22, 23, 29, 0.9);
+ 	font-size:40px;
+ 	padding:0px 0 20px 0;
+ }
+ .main-head h1 {
+	 font-family: 'Luckiest Guy', cursive;
+	 margin: 0px;
+	 padding: 20px 0px 10px 0px;
+ }
+ .main-head p {
+	 font-family: 'Caveat Brush', cursive;
+	 font-size: 15px;
+	 padding: 10px 0 0 0;
+ }
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-show{
+	background-color: rgba(22, 23, 29, 0.9);
+	padding-top:20px;
+	padding-bottom:10px;
+	padding-bottom:;
+}
+.jumbotron{
+		margin: 0;
+		background-color: rgba(22, 23, 29, 0);
+}
+img{
+	width: 100%;
+	height:auto;
+	background-color: rgba(22, 23, 29, 0);
+}
+.bender-dance {
+	padding:0;
+}
+.main-text{
+	font-family: 'Libre Baskerville', serif;
+	background-color: rgba(22, 23, 29, 0.9);
+	padding:15px 8px 0 10px;
+	line-height: 25px;
+}
+.my-list{
+	font-family: 'Concert One', cursive;
+	padding-bottom: 10px;
+}
+.lists{
+	background-color: rgba(22, 23, 29, 0.9);
+	text-align: center;
+	padding:10px 0 20px 0;
+}
+.lists li{
+	text-align: left;
+	list-style-position: inside;
+	padding-left:30%;
+}
+.list-left {
+	line-height: 30px
+}
+.foot{
+	font-family: 'Concert One', cursive;
+	background-color: rgba(22, 23, 29, 0.9);
+	margin-bottom: 70px;
+}
+
+
+/* Ticker */
+
+/* Following Code, Original Credit To https://codepen.io/lewismcarey, */
+
+/* Modified by me Phillip Mcgowan */
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+.ticker-top{
+	-webkit box-sizing: content-box !important;  /* The box-sizing and !important tags are needed to reset the inheritance to the CSS default */
+	box-sizing: border-box !important;
+}
+.ticker-wrap {
+	box-sizing: content-box !important;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 70px;
+  background-color: rgba(22, 23, 29, 0.9);
+  padding-left: 100%;
+}
+
+.ticker {
+	font-family: 'Caveat Brush', cursive;
+  display: inline-block !important;
+  height: 4rem;
+  line-height: 4rem;
+  white-space: nowrap;
+  padding-right: 100%;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: ticker;
+  animation-name: ticker;
+  -webkit-animation-duration: 60s;
+  animation-duration: 60s;
+}
+.ticker__item {
+  display: inline-block;
+  padding: 0 2rem;
+  font-size: 2rem;
+  color: white;
+}
+
+/* Fade In code taken from https://codepen.io/JTBennett/pen/BjpXRo by Joel T Bennet */
+
+.fade-in {	
+  animation: fadeIn ease 8s;
+  -webkit-animation: fadeIn ease 8s;
+  -moz-animation: fadeIn ease 8s;
+  -o-animation: fadeIn ease 8s;
+  -ms-animation: fadeIn ease 8s;
+}
+
+
+@keyframes fadeIn{
+  0% {
+		visibility: visible;
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+		animation-play-state: paused;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
