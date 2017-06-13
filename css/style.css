@@ -1,8 +1,10 @@
+/*  // For Showing Box Model //
 {
 	border: 1px solid red !important;
 }
-body {
+*/
 
+body {
   background-image: url(http://cdn.wallpapersafari.com/62/8/xmcM2g.jpg);
 	color: #fff;
 	background-repeat: no-repeat;
@@ -11,67 +13,81 @@ body {
 	background-size: cover;
 	background-color: #efefef;
  }
+
  .main-head {
 	background-color: rgba(22, 23, 29, 0.9);
  	font-size:40px;
  	padding:0px 0 20px 0;
  }
+
  .main-head h1 {
 	 font-family: 'Luckiest Guy', cursive;
 	 margin: 0px;
 	 padding: 20px 0px 10px 0px;
  }
+
  .main-head p {
 	 font-family: 'Caveat Brush', cursive;
 	 font-size: 15px;
 	 padding: 10px 0 0 0;
  }
+
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 .main-show{
 	background-color: rgba(22, 23, 29, 0.9);
 	padding-top:20px;
 	padding-bottom:10px;
 	padding-bottom:;
 }
+
 .jumbotron{
 		margin: 0;
 		background-color: rgba(22, 23, 29, 0);
 }
+
 img{
 	width: 100%;
 	height:auto;
 	background-color: rgba(22, 23, 29, 0);
 }
+
 .bender-dance {
 	padding:0;
 }
+
 .main-text{
 	font-family: 'Libre Baskerville', serif;
 	background-color: rgba(22, 23, 29, 0.9);
 	padding:15px 8px 0 10px;
 	line-height: 25px;
 }
+
 .my-list{
 	font-family: 'Concert One', cursive;
 	padding-bottom: 10px;
 }
+
 .lists{
 	background-color: rgba(22, 23, 29, 0.9);
 	text-align: center;
 	padding:10px 0 20px 0;
 }
+
 .lists li{
 	text-align: left;
 	list-style-position: inside;
 	padding-left:30%;
 }
+
 .list-left {
 	line-height: 30px
 }
+
 .foot{
 	font-family: 'Concert One', cursive;
 	background-color: rgba(22, 23, 29, 0.9);
@@ -147,7 +163,7 @@ img{
 
 /* Fade In code taken from https://codepen.io/JTBennett/pen/BjpXRo by Joel T Bennet */
 
-.fade-in {	
+.fade-in {
   animation: fadeIn ease 8s;
   -webkit-animation: fadeIn ease 8s;
   -moz-animation: fadeIn ease 8s;
