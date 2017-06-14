@@ -4,6 +4,12 @@
 }
 */
 
+/* GLOBAL */
+
+.container {
+  max-width: 1280px;
+}
+
 body {
   background-image: url(http://cdn.wallpapersafari.com/62/8/xmcM2g.jpg);
 	color: #fff;

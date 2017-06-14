@@ -1,0 +1,64 @@
+/*  // For Showing Box Model // */
+{
+	border: 1px solid red !important;
+}
+
+
+/* GLOBAL */
+
+/* NAVBAR */
+
+.navbar {
+  margin-bottom: 0;
+}
+.mynav-box {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* Portfolio section */
+
+.portfolio-show {
+  max-width: 1280px;
+  padding: 80px 0 40px 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red !important;
+}
+
+.show-image-left {
+  text-align: center;
+  padding: 60px 0 0 50px;
+}
+
+.show-text-right {
+  padding: 100px 80px 0 40px
+}
+
+.show-image-right {
+  text-align: center;
+  padding:60px 50px 0 0;
+}
+
+.show-text-left {
+  padding: 100px 40px 0 80px
+}
+
+/* About Section */
+
+.portfolio-about {
+  max-width: 1280px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red !important;
+}
+
+.about {
+  padding-top: 60px;
+}
+.about, h1 {
+  text-align: center;
+}
