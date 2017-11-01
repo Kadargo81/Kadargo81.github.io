@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(88, 235, 155);
+  margin: 0;
+}
+#button{
+  outline: none;
+}
+a:link{
+  color:inherit;
+}
+a:visited{
+  color:inherit;
+}
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-size: 1.4em;
+  font-weight: 700;
+  color: rgb(88, 235, 155);
+  letter-spacing: 1px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+button:hover{
+  background-color:rgb(88, 235, 155);
+  color: white;
+}
+
+.fa-quote-left {
+  font-size: 1.5em;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+.fa-twitter-square, .fa-facebook-square {
+  font-size: 4em;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+.fa:hover{
+  color: rgb(88, 235, 155);
+}
+
+.quoteBox {
+
+}
+.container {
+  background-color: rgb(214, 251, 229);
+  text-align: center;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 100px auto;
+  min-height: 250px;
+}
+
+.bottomRow {
+  padding-top: 70px;
+  margin-top: 40px
+}
+
+#quoteIcon {
+  padding-top: 30px;
+  font-size: 2em;
+}
