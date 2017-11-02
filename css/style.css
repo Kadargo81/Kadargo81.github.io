@@ -1,17 +1,15 @@
-/*  // For Showing Box Model //
-{
-	border: 1px solid red !important;
-}
-*/
-
-/* GLOBAL */
-
 .container {
   max-width: 1280px;
 }
 
 body {
-  background-image: url(http://cdn.wallpapersafari.com/62/8/xmcM2g.jpg);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1a73ae+0,1db6e0+35,00def2+62,2ca8e2+100,80cdee+100 */
+  background: #1a73ae; /* Old browsers */
+  background: -moz-linear-gradient(top,  #1a73ae 0%, #1db6e0 35%, #00def2 62%, #2ca8e2 100%, #80cdee 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #1a73ae 0%,#1db6e0 35%,#00def2 62%,#2ca8e2 100%,#80cdee 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #1a73ae 0%,#1db6e0 35%,#00def2 62%,#2ca8e2 100%,#80cdee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a73ae', endColorstr='#80cdee',GradientType=0 ); /* IE6-9 */
+
 	color: #fff;
 	background-repeat: no-repeat;
   background-attachment: fixed;
@@ -170,11 +168,11 @@ img{
 /* Fade In code taken from https://codepen.io/JTBennett/pen/BjpXRo by Joel T Bennet */
 
 .fade-in {
-  animation: fadeIn ease 8s;
-  -webkit-animation: fadeIn ease 8s;
-  -moz-animation: fadeIn ease 8s;
-  -o-animation: fadeIn ease 8s;
-  -ms-animation: fadeIn ease 8s;
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
 }
 
 

@@ -2,8 +2,8 @@ body {
   background-color: rgb(88, 235, 155);
   margin: 0;
 }
-#button{
-  outline: none;
+h1 {
+  font-family: 'Indie Flower', cursive;
 }
 a:link{
   color:inherit;
@@ -24,34 +24,44 @@ button {
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
 }
-
 button:hover{
   background-color:rgb(88, 235, 155);
   color: white;
 }
-
 .fa-quote-left {
   font-size: 1.5em;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
 }
-
 .fa-twitter-square, .fa-facebook-square {
   font-size: 4em;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
 }
-
 .fa:hover{
   color: rgb(88, 235, 155);
 }
-
 .quoteBox {
 
 }
-.container {
+.bottomRow {
+  padding-top: 70px;
+  margin-top: 40px
+}
+.author {
+  text-align: center;
+  font-family: 'Gloria Hallelujah',cursive;
+}
+#quoteIcon {
+  padding-top: 30px;
+  font-size: 2em;
+}
+#button{
+  outline: none;
+}
+#mainShow {
   background-color: rgb(214, 251, 229);
   text-align: center;
   border-radius: 10px;
@@ -59,13 +69,6 @@ button:hover{
   margin: 100px auto;
   min-height: 250px;
 }
-
-.bottomRow {
-  padding-top: 70px;
-  margin-top: 40px
-}
-
-#quoteIcon {
-  padding-top: 30px;
-  font-size: 2em;
+#quoteDiv {
+  padding-top: 10px;
 }
