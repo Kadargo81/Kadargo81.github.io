@@ -39,7 +39,7 @@ p {
 
 .show-image-left {
   text-align: center;
-  padding: 60px 0 0 50px;
+  margin: 40px auto;
 }
 
 .show-text-right {
@@ -48,7 +48,7 @@ p {
 
 .show-image-right {
   text-align: center;
-  padding:60px 50px 0 0;
+  margin: 40px auto;
 }
 
 .show-text-left {
